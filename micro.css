@@ -1,0 +1,189 @@
+body {
+    background-image: url(nda4.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+h.nda {
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+
+img.ndalogo {
+    border-radius: 50px;
+    height: 100px;
+    width: auto;
+    margin-right: 20px;
+}
+
+img.satya {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+img.seventyfive {
+    float: right;
+    height: 100px;
+    width: 80px;
+    margin: 10px;
+}
+
+div.a {
+    background-color: rgb(109, 16, 16);
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+h {
+    color: yellow;
+    margin-left: 55px;
+}
+input {
+    background-color: rgb(109, 16, 16);
+    color: yellow;
+    border:2px solid yellow;
+}
+nav.a {
+    margin-left: 700px;
+}
+div.a a:hover {
+    color: rgb(109, 16, 16);
+    font-size: 18px;
+}
+nav.b {
+    margin-left: 80px;
+}
+
+button {
+    width: 150px;
+    height: 20px;
+    margin-right: 20px;
+    border: 2px solid yellow;
+    background-color: rgb(109, 16, 16);
+}
+
+div.b {
+    background-color: rgb(15, 15, 89);
+    padding: 5px;
+}
+
+div.dropdowna {
+    position: relative;
+    display: inline;
+}
+
+div.dropdownb {
+    position: relative;
+    display: inline;
+}
+
+div.dropdowna-content {
+    display: none;
+    background-color: rgb(220, 215, 208);
+    color: black;
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px;
+    width: 800px;
+}
+
+div.dropdownb-content {
+    display: none;
+    background-color: rgb(220, 215, 208);
+    color: black;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    box-shadow: 3px 3px 3px;
+    width: 800px;
+}
+
+div.dropdowna-content a {
+    color: rgb(15, 15, 89);
+    display: block;
+    padding: 3px;
+}
+
+div.dropdownb-content a {
+    color: rgb(15, 15, 89);
+    display: block;
+    padding: 3px;
+}
+
+div.dropdowna-content a:hover {
+    font-size: 18px;
+}
+
+div.dropdownb-content a:hover {
+    font-size: 18px;
+}
+
+div.dropdowna-content p:hover {
+    font-size: 18px;
+}
+
+div.dropdownb-content p:hover {
+    font-size: 18px;
+}
+
+div.dropdowna-content img:hover {
+    height: 250px;
+    width: 250px;
+}
+
+div.dropdownb-content img:hover {
+    height: 250px;
+    width: 250px;
+}
+div.dropdowna a:hover {
+    color: rgb(109, 16, 16);
+    font-size: 18px;
+}
+div.dropdowna:hover .dropdowna-content {
+    display: block;
+}
+div.dropdowna:hover .dropdownb-content {
+    display: block;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+@media (min-width:100px) and (max-width: 425px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        background-color: black;
+    }
+
+    img.ndalogo {
+        border-radius: 30px;
+        height: 60px;
+        width: auto;
+    }
+
+    img.satya {
+        height: 80px;
+        width: 50px;
+    }
+
+    img.seventyfive {
+        height: 80px;
+        width: 80px;
+    }
+
+    h.nda {
+        font-size: 20px;
+    }
+}
