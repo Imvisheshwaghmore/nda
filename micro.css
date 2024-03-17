@@ -1,6 +1,4 @@
 body {
-    background-image: url(nda4.jpg);
-    background-size: cover;
     padding: 0;
     margin: 0;
 }
@@ -43,18 +41,23 @@ h {
     color: yellow;
     margin-left: 55px;
 }
+
 input {
     background-color: rgb(109, 16, 16);
     color: yellow;
-    border:2px solid yellow;
+    border: 2px solid yellow;
+    margin-right: 25px;
 }
+
 nav.a {
     margin-left: 700px;
 }
+
 div.a a:hover {
     color: rgb(109, 16, 16);
     font-size: 18px;
 }
+
 nav.b {
     margin-left: 80px;
 }
@@ -62,7 +65,7 @@ nav.b {
 button {
     width: 150px;
     height: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     border: 2px solid yellow;
     background-color: rgb(109, 16, 16);
 }
@@ -141,22 +144,74 @@ div.dropdownb-content img:hover {
     height: 250px;
     width: 250px;
 }
+
 div.dropdowna a:hover {
     color: rgb(109, 16, 16);
     font-size: 18px;
 }
+
 div.dropdowna:hover .dropdowna-content {
     display: block;
 }
+
 div.dropdowna:hover .dropdownb-content {
     display: block;
 }
-img {
+
+img.nav {
     height: 200px;
     width: 200px;
     border-radius: 10px;
     margin: 5px;
     box-shadow: 3px 3px 3px black;
+}
+
+#main {
+    background-color: rgb(220, 215, 208);
+    box-shadow: 15px 15px 15px black;
+}
+
+.box1 {
+    background-color: rgb(220, 215, 208);
+    height: 520px;
+    box-shadow: 15px 15px 15px black;
+    width: 1400px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.photos {
+    background-color:rgb(220, 215, 208);
+    height: auto;
+    box-shadow: 15px 15px 15px black;
+    width: 1400px;
+    padding: 10px;
+    margin-top: 50px;
+}
+div.footer {
+    background-color: rgb(63, 59, 59);
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+    border: 5px solid rgb(15, 15, 89);
+    border-top: 20px solid rgb(109, 16, 16);
 }
 
 @media (min-width:100px) and (max-width: 425px) {
