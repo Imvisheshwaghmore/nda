@@ -90,10 +90,10 @@ div.dropdowna-content {
     background-color: rgb(220, 215, 208);
     color: black;
     position: absolute;
-    left: 50px;
+    top: 20px;
     z-index: 1;
     box-shadow: 5px 5px 5px;
-    width: 800px;
+    width: 1330px;
 }
 
 div.dropdownb-content {
@@ -101,10 +101,10 @@ div.dropdownb-content {
     background-color: rgb(220, 215, 208);
     color: black;
     position: absolute;
-    right: 0;
+    top: 20px;
     z-index: 1;
     box-shadow: 3px 3px 3px;
-    width: 800px;
+    width: 1330px;
 }
 
 div.dropdowna-content a {
