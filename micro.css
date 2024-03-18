@@ -103,7 +103,7 @@ div.dropdownb-content {
     position: absolute;
     top: 20px;
     z-index: 1;
-    box-shadow: 3px 3px 3px;
+    box-shadow: 5px 5px 5px;
     width: 1330px;
 }
 
