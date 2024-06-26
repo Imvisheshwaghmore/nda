@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
 body {
     padding: 0;
     margin: 0;
+    display:flex;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 h.nda {
@@ -35,6 +40,8 @@ div.a {
     color: white;
     padding: 5px;
     width: 100%;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 h {
@@ -51,15 +58,21 @@ input {
 
 nav.a {
     margin-left: 700px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.a a:hover {
     color: rgb(109, 16, 16);
     font-size: 18px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 nav.b {
     margin-left: 80px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 button {
@@ -68,20 +81,28 @@ button {
     margin-right: 40px;
     border: 2px solid yellow;
     background-color: rgb(109, 16, 16);
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.b {
     background-color: rgb(15, 15, 89);
     padding: 5px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna {
     position: relative;
     display: inline;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdownb {
     position: relative;
+    transition: opacity 1.5s
+    ease-in-out;
     display: inline;
 }
 
@@ -90,6 +111,8 @@ div.dropdowna-content {
     background-color: rgb(220, 215, 208);
     color: black;
     position: absolute;
+    transition: opacity 1.5s
+    ease-in-out;
     top: 20px;
     z-index: 1;
     box-shadow: 5px 5px 5px;
@@ -105,57 +128,81 @@ div.dropdownb-content {
     z-index: 1;
     box-shadow: 5px 5px 5px;
     width: 1330px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna-content a {
     color: rgb(15, 15, 89);
     display: block;
     padding: 3px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdownb-content a {
     color: rgb(15, 15, 89);
     display: block;
     padding: 3px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna-content a:hover {
     font-size: 18px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdownb-content a:hover {
     font-size: 18px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna-content p:hover {
     font-size: 18px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdownb-content p:hover {
     font-size: 18px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna-content img:hover {
     height: 250px;
     width: 250px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdownb-content img:hover {
     height: 250px;
+    transition: opacity 1.5s
+    ease-in-out;
     width: 250px;
 }
 
 div.dropdowna a:hover {
     color: rgb(109, 16, 16);
     font-size: 18px;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna:hover .dropdowna-content {
     display: block;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 div.dropdowna:hover .dropdownb-content {
     display: block;
+    transition: opacity 1.5s
+    ease-in-out;
 }
 
 img.nav {
